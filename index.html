@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Webresizer</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body id="main">
+        <header>
+            <nav class="text-center container">
+                Enter your Website :<input type="text" id="website" value="http://" >
+                <button id="btn">Run</button>
+                <select id="sel1">
+                    <option>--Desktop--</option>
+                    <option value="1024X600">1024 X 600</option>
+                    <option value="1024X768">1024 X 768</option>
+                    <option value="1280X800">1280 X 800</option>
+                    <option value="1366X768">1366 X 768</option>
+                    <option value="1440X900">1440 X 900</option>
+                    <option value="1680X1050">1680 X 1050</option>
+                    <option value="1920X1080">1920 X 1080</option>
+                </select>
+
+                <select id="sel2">
+                    <option>--Mobile--</option>
+                    <option value="991X568">991 X 568</option>
+                    <option value="768X360">768 X 360</option>
+                    <option value="480X896">480 X 896</option>
+                    <option value="414X896">414 X 896</option>
+                    <option value="375X812">375 X 812</option>
+                    <option value="414X896">414 X 896</option>
+                    <option value="375X812">375 X 812</option>
+                    <option value="414X736">414 X 736</option>
+                    <option value="320X568">320 X 568</option>
+                    <option value="412X732">412 X 732</option>
+                    <option value="480X853">480 X 853</option>
+                    <option value="360X740">360 X 740</option>
+                </select>
+
+
+                <select id="sel3">
+                    <option>--Tablets--</option>
+                    <option value="768X1024">768 X 1024</option>
+                    <option value="600X960">600 X 960</option>
+                    <option value="800X1280">800 X 1280</option>
+                    <option value="1280X850">1280 X 850</option>
+                    <option value="1024X1366">1024 X 1366</option>
+                </select>
+                <br>
+                Set background color: <input type="color" id="color">
+                Refresh the page :<button id="refresh">Refresh</button>
+                <br>
+                Custom Width: <input type="number" id="width" value="400">
+                Custom height: <input type="number" id="height" value="800">
+                <button id="custom">Use</button>
+                <p>Press M - To see Mobile viewport | Press T - To see Tablet viewport | Press D - To see Desktop viewport | Press R - To Refresh viewport</p>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <iframe class="shadow-lg" id="frame" src="" width="500" height="500"></iframe>
+            </div>
+        </main>
+
+        <footer class="text-center">
+            <p>&copy;2020 Webresizer, Made with <span style="color:red;">&hearts;</span> by <a href="https://github.com/imsanketvyawahare" target="_blank">Sanket Vyawahare</a></p>
+        </footer>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
