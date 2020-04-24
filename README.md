@@ -7,3 +7,5 @@ To solve that problem, i though to make a website which can provide all the view
 - Press T for Tablet viewport.
 - Press M for Mobile viewport.
 - Press R To refresh the design.
+
+## If you feel, there is need to change, please contribute.
