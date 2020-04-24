@@ -1,2 +1,9 @@
 # Webresizer
-This is a very important and useful developer tool which every web developer should have in their toolkit. It helps in viewing the website you are developing, with different viewports and thus helps you to see, how your website is responding to different viewports.
+One problem which every front-end developer faces while developing responsive websites is, cheking the response of website on different viewports, and for that, we have to continously resize and change the browser which decreases the work efficiency.
+To solve that problem, i though to make a website which can provide all the viewports in same size and there is no need to again and again resize or change the browser size and thus increases work pace.
+
+# How to use :
+- Press D for Desktop viewport.
+- Press T for Tablet viewport.
+- Press M for Mobile viewport.
+- Press R To refresh the design.
